@@ -115,11 +115,13 @@ h3{
 }
 
 @media screen and (max-width: 768px) {
+    /* Área principal se ajusta */
     #principal {
         width: 100%;
         padding: 10px;
     }
 
+    /* Postagens e lateral ficam em bloco */
     #area-postagens,
     #area-lateral {
         width: 100%;
@@ -128,12 +130,19 @@ h3{
 
     .postagem {
         margin: 10px 0;
+        padding: 15px;
     }
 
     .conteudo-lateral {
         margin-bottom: 15px;
     }
 
+    .postagem img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Tamanho do texto ajustado */
     body {
         font-size: 1em;
     }
@@ -146,6 +155,7 @@ h3{
         font-size: 1.5em;
     }
 
+    /* Cabeçalho mais compacto */
     #area-cabecalho {
         padding: 10px;
     }
@@ -155,8 +165,23 @@ h3{
         text-align: center;
     }
 
-    a {
-        display: inline-block;
+    #menu a {
+        display: block;
         margin: 5px 0;
+        padding: 8px 12px;
+        background-color: rgba(255, 196, 0, 0.829);
+        color: white;
+        border-radius: 5px;
+    }
+
+    #menu a:hover {
+        background-color: white;
+        color: #f7b600;
+    }
+
+    /* Rodapé */
+    #rodape {
+        padding: 10px;
+        font-size: 0.9em;
     }
 }
