@@ -113,3 +113,50 @@ h3{
     padding: 15px;
     background-color: #ccc;
 }
+
+@media screen and (max-width: 768px) {
+    #principal {
+        width: 100%;
+        padding: 10px;
+    }
+
+    #area-postagens,
+    #area-lateral {
+        width: 100%;
+        float: none;
+    }
+
+    .postagem {
+        margin: 10px 0;
+    }
+
+    .conteudo-lateral {
+        margin-bottom: 15px;
+    }
+
+    body {
+        font-size: 1em;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    #area-cabecalho {
+        padding: 10px;
+    }
+
+    #area-logo, #menu {
+        padding: 5px;
+        text-align: center;
+    }
+
+    a {
+        display: inline-block;
+        margin: 5px 0;
+    }
+}
